@@ -1,0 +1,162 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+ul{
+	padding: 0 !important;
+}
+.nome{
+	font-size: 28;
+	float: left;
+	margin-left: 60px;
+	padding-top: 20px;
+	width: 5%;
+	
+}
+.menuprincipal{
+	background-color: red;
+	height: 60px;
+	width: 100%;
+}
+main{
+	position: relative;
+	width: 980px;
+	margin: 0 auto; 
+}
+.logo{
+	width: 50%;
+	float: left;
+}
+.bt ul li{
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+.bt{
+	width: 20%;
+	float: right;
+	margin-top: -10px;
+}
+.h2{
+	background-color: white;
+	width: 980px;
+	margin: 0 auto;
+	padding: 2px;
+}
+.menurl{
+	border-bottom: 4px solid #efefef;
+	height: 60px;
+}
+.menu ul li{
+	display: inline-block;
+	color: #8b8b8b;
+	margin-left: 40px;
+	height: 47px;
+}
+.menu ul li :hover{
+	border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+	color: #00bac6;	
+}
+.menu ul li a{
+	color: #8b8b8b;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.menu{
+	float: left;
+	width: 70%;
+}	
+.busca{
+	width: 30%;
+	float: right;
+	text-align: center;
+}
+.busca input{
+	margin-bottom: 30px;
+	height: 30px;
+	padding: 7px;
+	width: 190px;
+	border: 2px solid #d6d6d6;
+}
+.c100{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.banner{
+	width: 100%;
+	height: 700px;
+	
+}
+.slider{
+	padding-top: 90px;
+	width: 250px;
+	margin-left: 80px;
+}
+.slider2{
+	padding-top: 90px;
+	width: 200px;
+	margin-right: 250px;
+	float: right;
+}
+button.slick-prev{
+	font-size: 0px;
+	border: none;
+	width: 32px;
+	height: 32px;
+	z-index: 9;
+	background-color: red;
+	position: absolute;
+	background-image: url('../img/esquerda.png')
+	top: 260%;
+	left: 15%;
+
+}
+button.slick-next{
+	font-size: 0px;
+	border: none;
+	width: 32px;
+	height: 32px;
+	z-index: 9;
+	background-color: red;
+	position: absolute;
+	background-image: url('../img/direita.png')
+	top: 260%;
+	right: 15%;
+}
+.slick-list{
+	width: 100% !important;
+}
+.slick-initialized{
+	overflow: hidden;
+}
+.slick-dots li button{
+	font-size: 0px;
+	border: 2px solid white;
+	width: 25px;
+	height: 25px;
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slick-dots{
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 20%;
+	top: 1200px;
+}
+li.slick-active button{
+	background: #00bac6;
+	
+}
+
+.slick-dots li{
+	padding-left: 10px;
+	display: inline-block;
+}
